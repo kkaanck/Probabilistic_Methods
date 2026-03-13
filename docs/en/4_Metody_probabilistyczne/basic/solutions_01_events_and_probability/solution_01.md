@@ -2,11 +2,10 @@
 
 ## Task 1
 
-This is a great starting point for your personal textbook. Since you're using this as a study note, I have structured the solution to be highly visual, logical, and easy to read.
 
-According to the course materials, visualizing the experiment using a tree diagram is highly recommended when the order of outcomes matters and the experiment consists of several consecutive steps. We will use **H** for Heads and **T** for Tails.
+We will use **H** for Heads and **T** for Tails.
 
-Here is the complete solution for Task 1, formatted perfectly for your markdown repository.
+
 
 ---
 
@@ -106,5 +105,3 @@ For example, in the three-coin toss experiment ($\Omega_3$), the elementary outc
 Because the order matters, the outcome $(H, T, H)$ is an entirely different elementary outcome from $(H, H, T)$, even though both contain exactly two Heads and one Tail.
 
 ---
-
-Would you like to move directly to **Task 6**, where we take these exact sample spaces and calculate the probabilities for specific events (like getting exactly two heads)?
