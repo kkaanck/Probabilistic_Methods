@@ -13,6 +13,16 @@ Students should learn how to:
 - interpret distributions in terms of real applications,
 - and use computational tools to visualize and compare distributions.
 
+In each task, before working with the PMF, PDF, or CDF, first identify:
+
+- the underlying random experiment,
+- the sample space $\Omega$,
+- the form of an elementary outcome $\omega$,
+- the random variable $X$,
+- and the support of $X$.
+
+Do not confuse the sample space $\Omega$ with the support of $X$. The sample space consists of elementary outcomes of the experiment, while the support consists of values taken by the random variable.
+
 The emphasis in this list is on **formal technique** and **graphical understanding**.
 For that reason, many tasks require plotting several graphs for the same family under different parameter choices, comparing their shapes, and explaining what changes and what remains invariant.
 
@@ -41,6 +51,7 @@ Assume that the PMF is given by the following table:
 
 ### Tasks
 
+0. Construct one possible finite probability space $\Omega$ and define a random variable $X$ on $\Omega$ whose PMF is the one given in the table.
 1. Verify whether the listed probabilities form a valid probability distribution.
 2. Draw the graph of the **probability mass function**.
 3. Construct the **cumulative distribution function** $F(x)$.
@@ -69,6 +80,7 @@ Assume that the CDF is described by the following values:
 
 ### Tasks
 
+0. Construct one possible finite probability space $\Omega$ and define a random variable $X$ on $\Omega$ whose CDF is the one given in the table.
 1. Reconstruct the PMF from the jumps of the CDF.
 2. Draw the graph of the PMF.
 3. Redraw the CDF carefully, emphasizing its stepwise character.
@@ -91,6 +103,7 @@ Recall that the Bernoulli distribution is the special case $Bin(1,p)$.
 
 ### Tasks
 
+0. Model the experiment as $n$ Bernoulli trials. Describe the experiment, specify the sample space $\Omega$, describe one elementary outcome $\omega$, and define $X(\omega)$ as the number of successes.
 1. Write the PMF of the binomial distribution.
 2. Identify its support.
 3. Draw PMF graphs for several choices of parameters, for example:
@@ -115,6 +128,7 @@ Recall that the Bernoulli distribution is the special case $Bin(1,p)$.
 
 ### Tasks
 
+0. Describe the experiment of repeated trials until the first success, specify the sample space $\Omega$, describe one elementary outcome $\omega$, and define $X(\omega)$ as the trial on which the first success occurs.
 1. Write the PMF and CDF of the geometric distribution.
 2. Identify the support and explain why it is infinite.
 3. Draw PMF graphs for several values of the parameter $p$.
@@ -135,6 +149,7 @@ Recall that the Bernoulli distribution is the special case $Bin(1,p)$.
 
 ### Tasks
 
+0. Propose an experiment in which random events occur in a fixed interval, specify a natural sample space $\Omega$, describe one elementary outcome $\omega$, and define $X(\omega)$ as the number of events in the interval.
 1. Write the PMF of the Poisson distribution and identify its parameter.
 2. Describe its support.
 3. Draw PMF graphs for several values of $\lambda$.
@@ -155,6 +170,7 @@ Recall that the Bernoulli distribution is the special case $Bin(1,p)$.
 
 ### Tasks
 
+0. Describe the experiment of sampling without replacement, specify the sample space $\Omega$, describe one elementary outcome $\omega$, and define $X(\omega)$ as the number of distinguished objects in the sample.
 1. Write the PMF of the hypergeometric distribution and explain its parameters.
 2. Identify the support.
 3. Draw PMF graphs for several parameter choices.
@@ -177,6 +193,7 @@ Recall that the Bernoulli distribution is the special case $Bin(1,p)$.
 
 ### Tasks
 
+0. Describe the experiment of repeated trials until the $r$-th success, specify the sample space $\Omega$, describe one elementary outcome $\omega$, and define $X(\omega)$ as the trial on which the $r$-th success occurs.
 1. Write the PMF of the negative binomial distribution and explain its parameters.
 2. Identify the support.
 3. Draw PMF graphs for several values of the parameters.
@@ -197,6 +214,7 @@ Recall that the Bernoulli distribution is the special case $Bin(1,p)$.
 
 ### Tasks
 
+0. Consider a continuous experiment on $[0,1]$. Specify a simple sample space $\Omega = [0,1]$, describe one elementary outcome $\omega$, and define $X(\omega)=\omega$.
 1. Write the PDF of the beta distribution and identify its parameters.
 2. Identify its support.
 3. Draw PDF graphs for several parameter choices, for example cases where:
@@ -223,6 +241,7 @@ Note that the chi-square distribution is a special case of the gamma family.
 
 ### Tasks
 
+0. Propose a continuous waiting-time experiment, specify a simple sample space $\Omega = [0,\infty)$, describe one elementary outcome $\omega$, and define $X(\omega)=\omega$ as the waiting time.
 1. Write the PDF of the gamma distribution and identify its parameters.
 2. Identify its support.
 3. Draw PDF graphs for several parameter choices.
@@ -243,6 +262,7 @@ Note that the chi-square distribution is a special case of the gamma family.
 
 ### Tasks
 
+0. Propose a continuous measurement experiment, specify a simple sample space $\Omega = \mathbb{R}$, describe one elementary outcome $\omega$, and define $X(\omega)=\omega$ as the measured value.
 1. Write the PDF of the normal distribution and identify its parameters.
 2. Identify its support.
 3. Draw PDF graphs for several parameter choices:
